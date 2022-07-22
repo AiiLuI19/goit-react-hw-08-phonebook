@@ -22,13 +22,13 @@ const Contacts = () => {
     <>
       {isFetching ? <p>Loading...</p> : null}
       <ul className={s.list}>
-        {filteredContacts.map(({ name, id, phone }) => (
+        {filteredContacts.map(({ name, id, number }) => (
           <li key={id} className={s.item}>
             <ContactItem
               name={name}
               deleteContact={contactDelete}
               id={id}
-              phone={phone}
+              phone={number}
             />
           </li>
         ))}

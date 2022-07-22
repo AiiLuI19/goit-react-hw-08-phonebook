@@ -1,13 +1,6 @@
-.container {
-  margin-top: 20px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+.welcome {
+  margin-top: 60px;
   text-align: center;
-}
-.name {
   text-shadow: rgb(160, 150, 107) 1px 0 10px;
 }
 .btn {
@@ -65,62 +58,20 @@
   height: 20px;
   box-shadow: 5px 2px 2px rgb(179, 179, 180);
 }
-.list {
+.item {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
   padding: 10px;
-}
-.item {
-  display: flex;
-  margin-bottom: 5px;
-}
-.btnClose {
-  text-decoration: none;
-  display: flex;
-  padding: 4px;
-  margin-left: 5px;
-  border-radius: 50%;
-  border: none;
-  /* border: 0.5px solid rgb(72, 72, 72); */
-  background-image: linear-gradient(
-    45deg,
-    #6ad7ad 0%,
-    #33debf 50%,
-    #015a3a 100%
-  );
-  background-position: 100% 0;
-  background-size: 200% 200%;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 8px;
-  color: white;
-  box-shadow: 0 16px 32px 0 rgba(0, 40, 120, 0.35);
-  transition: 0.5s;
-}
-.btnClose:hover {
-  box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
-  background-position: 0 0;
-}
-.number {
-  margin-left: 5px;
-}
-.wrapFilter {
-  display: flex;
-  flex-direction: column;
-}
-.find {
-  margin: 10px 0;
+  text-align: center;
 }
 
-.wrapForm {
-  display: flex;
-  justify-content: center;
-}
-.listContacts {
-  display: flex;
-}
-.phoneImg {
-  font-size: 15px;
-  color: rgb(3, 89, 60);
+.name {
+  text-shadow: rgb(160, 150, 107) 1px 0 10px;
 }

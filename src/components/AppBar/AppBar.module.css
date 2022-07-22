@@ -1,0 +1,97 @@
+.header {
+  justify-content: space-around;
+  height: 60px;
+  border-bottom: 1px solid #ececec;
+  display: flex;
+  height: 80px;
+  background-color: rgb(185, 215, 202);
+  background-image: radial-gradient(
+    circle at 50% 50%,
+    #b8cb9e 0,
+    #adc99c 8.33%,
+    #a0c79a 16.67%,
+    #92c499 25%,
+    #82c098 33.33%,
+    #6fbc98 41.67%,
+    #59b798 50%,
+    #3db29a 58.33%,
+    #09ad9d 66.67%,
+    #00a9a1 75%,
+    #00a4a6 83.33%,
+    #00a0ac 91.67%,
+    #009db3 100%
+  );
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+
+  border-bottom: 1px solid #b0b0b0;
+  box-shadow: -1px 5px 35px -8px rgba(0, 0, 0, 0.75);
+}
+.Nav {
+  display: flex;
+  align-items: center;
+}
+.List {
+  display: flex;
+  margin-left: 30px;
+}
+.Logo {
+  font-size: 32px;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.logo {
+  font-size: 35px;
+  color: rgb(1, 40, 31);
+}
+
+.userMenu {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 20px;
+  margin: 5px 5px;
+  border-radius: 20px;
+  border: 0.5px solid rgb(72, 72, 72);
+  background-image: linear-gradient(
+    45deg,
+    #6ad7ad 0%,
+    #33debf 50%,
+    #015a3a 100%
+  );
+  background-position: 100% 0;
+  background-size: 200% 200%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  color: white;
+  box-shadow: 0 16px 32px 0 rgba(0, 40, 120, 0.35);
+  transition: 0.5s;
+}
+.button:hover {
+  box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
+  background-position: 0 0;
+}
+
+.img {
+  margin: 8px;
+}
+.page {
+  display: flex;
+
+  align-items: center;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.item {
+  margin-right: 20px;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}

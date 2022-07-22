@@ -1,8 +1,10 @@
 import PropTypes from 'prop-types';
 import s from './Phonebook.module.css';
 const ContactItem = ({ name, deleteContact, id, phone }) => (
-  <>
-    <div>&#128222; {name}: </div>
+  <div className={s.listContacts}>
+    <div>
+      <span className={s.phoneImg}>&#9742;</span> {name}:{' '}
+    </div>
     <div className={s.number}> {phone} </div>
     <button
       className={s.btnClose}
@@ -11,7 +13,7 @@ const ContactItem = ({ name, deleteContact, id, phone }) => (
     >
       &#10008;
     </button>
-  </>
+  </div>
 );
 ContactItem.propTypes = {
   name: PropTypes.string.isRequired,

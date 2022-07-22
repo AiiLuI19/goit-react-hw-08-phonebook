@@ -11,16 +11,18 @@ const Filter = () => {
   };
 
   return (
-    <div className={s.wrapFilter}>
-      <label htmlFor="filter" className={s.find}>
-        Find contacts by name
-      </label>
-      <input
-        id="filter"
-        value={filter}
-        onChange={filterContacts}
-        className={s.input}
-      />
+    <div className={s.wrapForm}>
+      <div className={s.form}>
+        <label htmlFor="filter" className={s.label}>
+          Find contacts by name
+          <input
+            id="filter"
+            value={filter}
+            onChange={filterContacts}
+            className={s.input}
+          />
+        </label>
+      </div>
     </div>
   );
 };
