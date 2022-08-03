@@ -15,4 +15,4 @@ https://aiilui19.github.io/goit-react-hw-08-phonebook/
 
 ## Demo/Preview
 
-http://joxi.ru/Vm6eg9zs388jlr
+![GitHub actions settings](./src/img/PhoneBook.jpg)
