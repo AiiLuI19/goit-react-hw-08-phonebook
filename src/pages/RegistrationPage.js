@@ -80,6 +80,7 @@ export default function RegistrationPage() {
             onChange={handleChange}
           />
         </label>
+
         <div className={s.btnWrap}>
           <button type="submit" className={s.btn}>
             Register
